@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const images = ["images/blog1.jpg", "Imagenes/FotoEquipo.jpg", "images/blog2.jpg"];
+    const images = ["Imagenes/Proyecto2.jpg", "Imagenes/Proyecto3.jpg", "Imagenes/Proyecto1.jpg"];
     let currentImageIndex = 0;
 
     const imageContainer = document.querySelector('.image-container');
