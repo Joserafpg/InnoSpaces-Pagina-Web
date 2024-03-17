@@ -59,8 +59,8 @@ body{
     box-shadow: 0 30px 50px #dbdbdb;
 }
 
-.container .slide .item{
-    width: 200px;
+.container .slide .item {
+    width: 230px;
     height: 65%;
     position: absolute;
     top: 50%;
