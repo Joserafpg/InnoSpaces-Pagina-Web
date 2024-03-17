@@ -8,6 +8,43 @@
     list-style: none;
 }
 
+.menu {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 15px 0; /* Espaciado interno del menú */
+    text-align: center; /* Centrar el texto del menú */
+    position: fixed; /* Fijar el menú en la parte superior */
+    width: 100%; /* Ancho completo del menú */
+    z-index: 999; /* Colocar el menú por encima del contenido */
+}
+
+.menu ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: #fff; /* Color del texto del enlace */
+    padding: 10px 20px; /* Espaciado interno del enlace */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos adicionales para el contenido */
+.container {
+    /* Estilos existentes para el contenedor principal */
+    /* Asegúrate de ajustar el posicionamiento y el margen para evitar superposiciones */
+    /* Puedes necesitar ajustar otros estilos según sea necesario */
+    margin-top: 50px; /* Espacio superior para dejar espacio al menú */
+}
+
 body{
     background: #eaeaea;
     overflow: hidden;
@@ -135,4 +172,27 @@ body{
     transform: scale(1.05);
     transition: all 0.3s;
     color: #e1e2e6;
+}
+
+
+.left-overlay, .right-overlay {
+    position: fixed;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    pointer-events: none; /* Para que no interfiera con los clics */
+}
+
+.left-overlay {
+    left: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), transparent); /* Desvanece de negro a transparente hacia la derecha */
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.right-overlay {
+    right: 0;
+    background: linear-gradient(to left, rgba(0,0,0,0.8), transparent);
+    cursor: pointer;    
+    transition: all 0.3s;
 }
