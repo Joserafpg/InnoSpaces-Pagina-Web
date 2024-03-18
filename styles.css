@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 link[rel="icon"]{
     border-radius: 50%;
 }
@@ -120,6 +124,18 @@ body {
     transform: scale(1.05);
     transition: all 0.3s;
     color: #e1e2e6;
+}
+
+.bottom-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-btn:hover {
+    transform: translateX(-50%) scale(1.4);
+    transition: transform 0.3s ease-in-out;
 }
 
 .coffee{
