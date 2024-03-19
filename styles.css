@@ -108,6 +108,7 @@ body {
     color: #C5C5C5;
     padding: 0 250px;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 .btn-1{
@@ -180,12 +181,14 @@ body {
     padding: 20px; /* Espaciado interno */
     border-radius: 25px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar */
+    text-align: justify;
 }
 
 .mission-vision-values h3 {
     color: #323337;
     font-size: 20px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .mission-vision-values p {

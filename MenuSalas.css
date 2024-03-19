@@ -125,6 +125,7 @@ body{
     font-weight: bold;
     opacity: 0;
     animation: animate 1s ease-in-out 1 forwards;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .content .des{
@@ -132,6 +133,7 @@ body{
     margin-bottom: 20px;
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .content button{
@@ -140,6 +142,7 @@ body{
     cursor: pointer;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
