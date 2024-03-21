@@ -108,7 +108,6 @@ body {
     color: #C5C5C5;
     padding: 0 250px;
     margin-bottom: 25px;
-    text-align: justify;
 }
 
 .btn-1{
@@ -242,7 +241,7 @@ body {
 }
 
 .servicio-1 img{
-    width: 25px;
+    width: 30px;
     margin-bottom: 15px;
 }
 
@@ -372,4 +371,44 @@ p{
     color: #C5C5C5;
     display: block;
     margin-bottom: 15px;
+}
+
+
+@media(max-width:991){
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+    }
 }

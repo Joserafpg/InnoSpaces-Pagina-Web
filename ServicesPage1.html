@@ -11,7 +11,7 @@
 </head>
 <body>
     
-<header class="header">
+<header class="header" id="mainHeader">
 
 <div class="menu container">
     <a href="index.html" class="logo">InnoSpaces</a>
@@ -22,7 +22,7 @@
 <nav class="navbar">
     <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
+        <li><a href="MenuSalas.html">Servicios</a></li>
         <li><a href="#">Productos</a></li>
         <li><a href="#">Contacto</a></li>
     </ul>
@@ -38,24 +38,26 @@
              voluptatum dolorem sed qui illum facilis voluptates incidunt
               
         </p>
-<a href="#" class="btn-1">informacion</a>
+<a href="#" class="btn-1">Reservar</a>
     </div>
 </div>
 </header>
 
 
-
 <Section class="about container">
-
-    <div class="about-img"> 
-        <img src="#" alt="">
+    <div class="product-showcase">
+        <img src="Imagenes/Gif.gif" alt="Image 1" onclick="changeBackground('Imagenes/Gif.gif')">
+        <img src="Imagenes/aula-escolar-futurista-futuros-estudiantes.jpg" alt="Image 1" onclick="changeBackground('Imagenes/aula-escolar-futurista-futuros-estudiantes.jpg')">
+        <img src="Imagenes/FotoEquipo.jpg" alt="Image 1" onclick="changeBackground('Imagenes/FotoEquipo.jpg')">
     </div>
-
-        <div class="about-txt">
-            
-        
-    </div>
-
 </Section>
+
+<script>
+    function changeBackground(imageUrl) {
+        var gradient = 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), ';
+        document.getElementById('mainHeader').style.backgroundImage = gradient + `url(${imageUrl})`;
+    }
+</script>
+
 </body>
 </html>

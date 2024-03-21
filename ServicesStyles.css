@@ -33,7 +33,7 @@ p {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)),
-       url(Imagenes/Y2meta.app-Sala\ de\ reuniones\ alquiler\ bogotá-\(1080p\).gif);
+       url(Imagenes/Gif.gif);
        background-position: center center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -127,4 +127,30 @@ width: 25px;
     transition: all 0.3s;
     color: #e1e2e6;
     font-family: "Poppins", sans-serif;
+}
+
+.product-showcase {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.product-showcase img {
+    width: 150px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin: 0 10px; /* Adjust spacing between images */
+    border-radius: 10px;
+    filter: grayscale(50%); /* Apply grayscale filter by default */
+    transition: filter 0.3s ease; /* Add transition effect */
+}
+
+.product-showcase img:hover {    
+    transform: scale(1.05);
+    transition: all 0.3s;
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
 }
