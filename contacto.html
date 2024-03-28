@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9ca7e9265f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <nav class="menu">
+        <header class="header"> 
+
+            <div class="menu container"> 
+                <a href="index.html" class="logo"> InnoSpaces</a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icono" alt="">
+                </label>
+    
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="MenuSalas.html">Servicios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>                
+                </nav>
+            </div>
+        </header>
+    </nav>
+
     <section class="contact">
         <div class="content">
-            <h2>Contact Us</h2>
+            <h2>Contactanos</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum est minima dignissimos 
                 expedita quod, qui tempore sit deleniti, accusantium animi ipsa consectetur voluptatum.</p>
         </div>
@@ -18,15 +42,15 @@
                 <div class="box">
                     <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
                     <div class="text">
-                        <h3>Address</h3>
-                        <p>4671 Sugar Camp Road, <br>Owatonna, Minnesota, <br>55060</p>
+                        <h3>Dirección</h3>
+                        <p>C. Del sol 30, <br>Santiago de Los Caballeros, Republica Dominicana, <br>51000</p>
                     </div>
                 </div>
 
                 <div class="box">
                     <div class="icon"><i class="fa-solid fa-phone"></i></div>
                     <div class="text">
-                        <h3>Phone</h3>
+                        <h3>Número</h3>
                         <p>829-630-5642</p>
                     </div>
                 </div>
@@ -35,28 +59,28 @@
                     <div class="icon"><i class="fa-regular fa-envelope"></i></div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>payerogarciaj@gmail.com</p>
+                        <p>somosInnoSpaces@gmail.com</p>
                     </div>
                 </div>
             </div>
 
             <div class="contactForm">
                 <form>
-                    <h2>Send Message</h2>
+                    <h2>Enviar Mensaje</h2>
                     <div class="inputBox">
                         <input type="text" name="" required="required">
-                        <span>Full Name</span>
+                        <span>Nombre Completo</span>
                     </div>
                     <div class="inputBox">
                         <input type="text" name="" required="required">
                         <span>Email</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span>Type your Message...</span>
+                        <textarea required="required"></textarea>
+                        <span>Escribe Tu Mensaje</span>
                     </div>
                     <div class="inputBox">
-                        <input type="submit" name="" value="Send">
+                        <input type="submit" name="" value="Enviar">
                     </div>
                 </form>
             </div>
