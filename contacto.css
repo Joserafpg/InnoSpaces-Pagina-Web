@@ -108,18 +108,17 @@ body{
     max-width: 800px;
     text-align: center;
 } 
-.contact .content h2
+.contact .content h1
 { 
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 35px;
+    line-height: 80px;
     color: rgb(255, 255, 255);
 
 }
 .contact .content p
 { 
-    
-    font-weight: 300;
     color: rgb(255, 255, 255);
+    padding-bottom: 15px;
 }
 .container
 { 
@@ -161,11 +160,10 @@ body{
     font-size: 16px;
     color: #fff;
     flex-direction: column;
-    font-weight: 300;
 }
 .container .contacInfo .box .text h3
 {
-    font-weight: 500;
+    font-weight: 600;
     color:  #acffa1;
 }
 .contactForm
@@ -175,19 +173,21 @@ body{
     background: #fff;
     border-radius: 25px;
 }
+
 .contactForm h2
 {
     font-size: 30px;
     color: #000000;
-    font-weight: 500;
+    font-weight: 700;
 }
+
 .contactForm .inputBox
 {
     position: relative;
     width: 100%;
     margin-top: 10px;
-      
 }
+
 .contactForm .inputBox input, 
 .contactForm .inputBox textarea
 {
@@ -218,7 +218,7 @@ body{
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid~ span
 {
-    color: #e91e63;
+    color: #74ad6c;
     font-size: 12px;
     transform: translateY(-20px);
 }
@@ -227,18 +227,20 @@ body{
 {
     width: 125px;
     background:  #acffa1;
-    color: #fff;
+    color: #000000;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+    padding: 11px 35px;
+    font-size: 13px;
     border-radius: 20px;
-
+    text-transform: uppercase;
 }
 
 .contactForm .inputBox input[type="submit"]:hover{
     transform: scale(1.05);
     transition: all 0.3s;
+    background: #74ad6c;
+    color: #ffffff;
 }
 
 @media (max-width: 991px)
